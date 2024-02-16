@@ -11,13 +11,20 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    public $css = [
-        'css/site.css',
-    ];
+   
     public $js = [
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap5\BootstrapAsset',
+    ];
+    public $css = [
+        'crypto/css/animate.css',
+        'crypto/css/style.css',
+        'crypto/css/bootstrap.min.css',
+        'crypto/css/font-awesome.min.css',
+        'crypto/css/owl.carousel.css',
+        'crypto/css/themify-icons.css',
+        // 'css/site.css',
     ];
 }
